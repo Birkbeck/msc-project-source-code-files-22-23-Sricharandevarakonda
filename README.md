@@ -40,7 +40,6 @@ Autonomous vehicles are rapidly evolving and have the potential to revolutionize
       pip install -r requirements.txt
    ```
 
-## Installation
 ## License
 This project is licensed under the MIT License.
 
