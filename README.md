@@ -1,4 +1,4 @@
-# Cloud-Based Reinforcement Learning System for Autonomous Vehicles
+cd# Cloud-Based Reinforcement Learning System for Autonomous Vehicles
 
 Welcome to the Cloud-Based Reinforcement Learning System for Autonomous Vehicles repository! This project aims to develop a cloud based system for training and deploying autonomous vehicles using reinforcement learning techniques. The system leverages cloud computing resources to accelerate training and enable real-time decision-making for safe and efficient autonomous driving.
 
@@ -57,7 +57,7 @@ This environment provides a step() function can accept action from
 the RL agent and return a tuple of (next state, reward, done, info).
 The agent reads the state and decides the next action based on that. This
 is the way the training loop continues for each episode.
-The RM agents for DDPG and DQN models are defined inside the files
+The RL agents for DDPG and DQN models are defined inside the files
 ddpg torch.py and dqn tensorflow.py respectively. To train both the models,
 separate scripts are provided inside files ddpg train.py and dqn train.py.
 In these file, the environment configuration to be trained (without trafficwith
