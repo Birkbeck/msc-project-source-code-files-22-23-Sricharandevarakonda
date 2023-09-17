@@ -42,26 +42,26 @@ Autonomous vehicles are rapidly evolving and have the potential to revolutionize
 ## Usage
 The model code directory contains following files
 
-• car environment.py
+• car_environment.py
 
-• ddpg torch.py
+• ddpg_torch.py
 
-• ddpg train.py
+• ddpg_train.py
 
-• dqn tensorflow.py
+• dqn_tensorflow.py
 
-• dqn train.py
+• dqn_train.py
 
-The file car environment.py contains the definition of the Carla environment.
+The file car_environment.py contains the definition of the Carla environment.
 This environment provides a step() function can accept action from
 the RL agent and return a tuple of (next state, reward, done, info).
 The agent reads the state and decides the next action based on that. This
 is the way the training loop continues for each episode.
 The RL agents for DDPG and DQN models are defined inside the files
-ddpg torch.py and dqn tensorflow.py respectively. To train both the models,
-separate scripts are provided inside files ddpg train.py and dqn train.py.
-In these file, the environment configuration to be trained (without trafficwith
-trafficweather condition) has to be defined while initialing the environment.
+ddpg_torch.py and dqn_tensorflow.py respectively. To train both the models,
+separate scripts are provided inside files ddpg_train.py and dqn_train.py.
+In these file, the environment configuration to be trained (without traffic/with
+traffic/weather condition) has to be defined while initialing the environment.
 The signature for the function to initialize the environment is as follows:
    ```bash
 CarEnv(traffic=False, random weather=False)
